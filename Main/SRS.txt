@@ -20,7 +20,7 @@ EventEase will allow attendees to browse and search events, view event details, 
 •	Unauthorized access may expose user or event information.
 Team note: Confirm with the whole team whether real payment integration, refunds, staff accounts, and other advanced features are inside the final scope before submitting the SRS.
 
-
+Member 1 id-3170
 2. Overall Description
 2.1 User Classes and Characteristics
 Attendee
@@ -49,9 +49,6 @@ An administrator manages the overall platform, including users, organizers, even
     • Organizers provide accurate event, venue, schedule, and ticket information.
     • The server and database are available during normal operation.
     • QR codes can be generated and scanned using supported devices.
-Team note: The team should review and approve all user classes, operating environment details, constraints, and assumptions before the final SRS is merged.
-
-
 
 
 
