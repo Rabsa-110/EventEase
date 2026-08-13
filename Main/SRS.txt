@@ -56,10 +56,10 @@ Team note: The team should review and approve all user classes, operating enviro
 
 
 
-EventEase SRS — Intasar Mostafiz
+EventEase SRS — Intasar Mostafiz ID : 24524203112
 Non-Functional Requirements | Prepared from the provided CSE 3206 SRS outline
 3.2 Non-Functional Requirements
-The following are an initial draft of quality requirements for EventEase. The team should agree on measurable targets where possible before final submission.
+The following are an initial draft of quality requirements for EventEase. 
 NFR-01 Performance
 The system should display normal event pages and search/filter results within an acceptable response time under normal expected load.
 NFR-02 Security
@@ -88,9 +88,4 @@ NFR-13 Backup and Recovery
 The team should define an appropriate database backup and recovery approach for the deployed prototype if the project environment supports it.
 NFR-14 Accessibility
 The interface should use readable text, understandable labels, adequate contrast, and keyboard-friendly controls where practical.
-Responsibility
-•	Own Section 3.2 of the SRS.
-•	Coordinate the final document formatting, consistency check, and final PDF export.
-•	Help define measurable NFR targets with the whole team.
-•	Main development area: admin functions, dashboards, moderation, and analytics.
 
