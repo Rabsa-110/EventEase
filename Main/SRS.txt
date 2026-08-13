@@ -19,9 +19,5 @@ EventEase will allow attendees to browse and search events, view event details, 
 •	Temporary service or database failures may affect ticketing and check-in.
 •	Unauthorized access may expose user or event information.
 Team note: Confirm with the whole team whether real payment integration, refunds, staff accounts, and other advanced features are inside the final scope before submitting the SRS.
-Member 1 — Responsibility
-•	Own Section 1 of the SRS.
-•	Help the team finalize the project purpose, scope, and user roles.
-•	Maintain consistency of terminology across the SRS.
-•	Main development area: user authentication and attendee-facing features
+
 
