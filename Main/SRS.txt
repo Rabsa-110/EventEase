@@ -52,6 +52,93 @@ An administrator manages the overall platform, including users, organizers, even
 
 
 
+EventEase SRS — Tabassum Binte Tariq Rabsa; ID: 24524203050
+Functional Requirements 
+
+3.1 Functional Requirements
+The functional requirements below are an initial team draft. Each requirement uses the User Story and Confirmation format required by the lab manual. The team should review, renumber, remove, or add requirements after the final EventEase scope is agreed.
+
+Account & Access
+FR-01 — User Registration
+User Story: As a new user, I want to create an account so that I can use EventEase features.
+Confirmation: The system shall validate required registration information and create the account when the information is valid.
+FR-02 — User Login
+User Story: As a registered user, I want to log in so that I can access my account and permitted features.
+Confirmation: The system shall authenticate valid credentials and provide access according to the user's role.
+FR-03 — Profile Management
+User Story: As a user, I want to manage my profile so that my account information remains up to date.
+Confirmation: The system shall allow authenticated users to view and update permitted profile information.
+Event Discovery
+FR-04 — Browse Events
+User Story: As an attendee, I want to browse available events so that I can find events to attend.
+Confirmation: The system shall display published events with relevant basic information.
+FR-05 — Search Events
+User Story: As an attendee, I want to search for events so that I can quickly find a specific event.
+Confirmation: The system shall return published events matching the user's search criteria.
+FR-06 — Filter Events
+User Story: As an attendee, I want to filter events by relevant criteria so that I can narrow the available choices.
+Confirmation: The system shall allow users to filter events using supported criteria such as category, date, or location.
+FR-07 — View Event Details
+User Story: As an attendee, I want to view detailed event information so that I can decide whether to register.
+Confirmation: The system shall display the event description, date, time, venue, organizer, ticket information, and other available details.
+Event Management
+FR-08 — Create Event
+User Story: As an organizer, I want to create an event so that I can publish it for attendees.
+Confirmation: The system shall allow authorized organizers to enter and save required event information.
+FR-09 — Edit Event
+User Story: As an organizer, I want to edit my event so that I can correct or update event information.
+Confirmation: The system shall allow authorized organizers to modify permitted information for their events.
+FR-10 — Publish Event
+User Story: As an organizer, I want to publish an event so that attendees can discover it.
+Confirmation: The system shall make an event visible to attendees only when the required publishing conditions are satisfied.
+FR-11 — Cancel Event
+User Story: As an organizer, I want to cancel an event so that attendees are informed when it will no longer take place.
+Confirmation: The system shall allow authorized organizers to cancel an event and update its status.
+Ticketing & Registration
+FR-12 — Manage Ticket Types
+User Story: As an organizer, I want to define ticket types so that I can offer different registration options.
+Confirmation: The system shall allow authorized organizers to define supported ticket types, prices, and quantities.
+FR-13 — Register or Purchase Ticket
+User Story: As an attendee, I want to select an available ticket and complete registration so that I can attend an event.
+Confirmation: The system shall create a registration only when the selected ticket is available and the required transaction/registration process succeeds.
+FR-14 — Generate Digital Ticket
+User Story: As an attendee, I want to receive a digital ticket after successful registration so that I can use it at the event.
+Confirmation: The system shall generate a unique digital ticket associated with the successful registration.
+FR-15 — Generate QR Code
+User Story: As an attendee, I want my digital ticket to contain a QR code so that it can be verified at the event.
+Confirmation: The system shall generate a QR code associated with the ticket's unique identifier.
+Check-in
+FR-16 — Verify QR Ticket
+User Story: As authorized event staff or an organizer, I want to scan a ticket QR code so that I can verify an attendee's ticket.
+Confirmation: The system shall check whether the ticket exists, is valid for the event, and has not already been used.
+FR-17 — Record Check-in
+User Story: As an organizer, I want successful ticket verification to record attendance so that I can monitor event participation.
+Confirmation: The system shall mark a valid ticket as checked in and store the check-in information.
+FR-18 — Prevent Duplicate Check-in
+User Story: As an organizer, I want the system to reject an already-used ticket so that the same ticket cannot be used more than once.
+Confirmation: The system shall reject a ticket that has already been recorded as checked in and display an appropriate status.
+Dashboards & Administration
+FR-19 — Organizer Dashboard
+User Story: As an organizer, I want to view event statistics so that I can monitor registrations and attendance.
+Confirmation: The system shall display available statistics such as registrations, tickets sold, capacity, attendance, and other supported metrics.
+FR-20 — Admin User Management
+User Story: As an administrator, I want to manage platform users so that I can maintain platform integrity.
+Confirmation: The system shall allow authorized administrators to view and manage user accounts according to defined administrative permissions.
+FR-21 — Event Moderation
+User Story: As an administrator, I want to review or manage events so that inappropriate or invalid events can be controlled.
+Confirmation: The system shall allow authorized administrators to review, approve, reject, remove, or otherwise manage events according to the final moderation policy.
+FR-22 — Notifications
+User Story: As a user, I want to receive important event or ticket notifications so that I remain informed about my registrations.
+Confirmation: The system shall provide supported notifications for relevant actions such as successful registration and event changes.
+Team note: The team must decide whether payment is real or simulated, whether staff is a separate role, whether refunds are supported, and exactly which notification channels will be implemented.
+Responsibility
+
+•	Maintain the functional requirement IDs and ensure every major feature has a requirement.
+•	Trace requirements to development tasks and tests.
+•	Main development area: ticketing, digital tickets, QR generation, and QR verification.
+
+
+
 
 EventEase SRS — Intasar Mostafiz ID : 24524203112
 Non-Functional Requirements | Prepared from the provided CSE 3206 SRS outline
