@@ -20,7 +20,7 @@ EventEase will allow attendees to browse and search events, view event details, 
 •	Unauthorized access may expose user or event information.
 
 
-Member 1 id-3170
+Member 2 id-3170
 2. Overall Description
 2.1 User Classes and Characteristics
 Attendee
