@@ -50,3 +50,47 @@ An administrator manages the overall platform, including users, organizers, even
     • The server and database are available during normal operation.
     • QR codes can be generated and scanned using supported devices.
 Team note: The team should review and approve all user classes, operating environment details, constraints, and assumptions before the final SRS is merged.
+
+
+
+
+
+
+EventEase SRS — Intasar Mostafiz
+Non-Functional Requirements | Prepared from the provided CSE 3206 SRS outline
+3.2 Non-Functional Requirements
+The following are an initial draft of quality requirements for EventEase. The team should agree on measurable targets where possible before final submission.
+NFR-01 Performance
+The system should display normal event pages and search/filter results within an acceptable response time under normal expected load.
+NFR-02 Security
+The system shall restrict protected functions according to authenticated user roles and shall protect user credentials and sensitive information.
+NFR-03 Usability
+The system should provide a clear and consistent interface so that attendees and organizers can complete common tasks without unnecessary complexity.
+NFR-04 Reliability
+The system should preserve registration and ticket information correctly and should handle expected failures without creating duplicate or invalid tickets.
+NFR-05 Availability
+The system should be available to users during the expected operating period, except for planned maintenance or unavoidable service interruptions.
+NFR-06 Maintainability
+The software should be organized into understandable modules so that developers can modify or extend individual features with minimal impact on unrelated components.
+NFR-07 Scalability
+The system should be designed so that the number of users, events, registrations, and tickets can increase without requiring a complete redesign.
+NFR-08 Data Integrity
+The system shall maintain consistent event, ticket, registration, payment-status, and check-in information.
+NFR-09 QR Ticket Integrity
+The system shall ensure that each generated ticket has a unique identifier and that QR verification reflects the current ticket status.
+NFR-10 Compatibility
+The web application should work correctly on commonly used modern web browsers and supported desktop/mobile screen sizes defined by the team.
+NFR-11 Privacy
+The system should limit access to personal and registration information to users and administrators who are authorized to access it.
+NFR-12 Error Handling
+The system should provide understandable error messages and should not expose sensitive technical information to normal users.
+NFR-13 Backup and Recovery
+The team should define an appropriate database backup and recovery approach for the deployed prototype if the project environment supports it.
+NFR-14 Accessibility
+The interface should use readable text, understandable labels, adequate contrast, and keyboard-friendly controls where practical.
+Responsibility
+•	Own Section 3.2 of the SRS.
+•	Coordinate the final document formatting, consistency check, and final PDF export.
+•	Help define measurable NFR targets with the whole team.
+•	Main development area: admin functions, dashboards, moderation, and analytics.
+
