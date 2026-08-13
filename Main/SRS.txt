@@ -1,1 +1,27 @@
+EventEase SRS — Member 1 id-3046
+Introduction | Prepared from the provided CSE 3206 SRS outline
+1. Introduction
+1.1 Purpose
+EventEase is a web-based event management and ticketing platform intended to simplify event discovery, registration, digital ticket management, and event participation. The SRS defines the requirements that will guide the development and testing of the EventEase system.
+1.2 Intended Audience
+•	Event attendees who want to discover events and manage registrations and tickets.
+•	Event organizers who want to create and manage events and monitor attendees.
+•	System administrators who manage users, events, reports, and platform activities.
+•	Developers and testers who will use the SRS as a reference during development and testing.
+1.3 Intended Use
+The SRS will be used as the common requirements reference for the four-member development team. It will describe the expected behavior, users, scope, constraints, assumptions, and quality requirements of EventEase.
+1.4 Product Scope
+EventEase will allow attendees to browse and search events, view event details, register for events or select tickets, receive digital tickets with QR codes, and use those tickets for event check-in. Organizers will be able to create and manage events, define ticket types and capacities, manage registrations, verify tickets, and view basic event analytics. Administrators will manage users, organizers, events, reports, and platform-level activities.
+1.5 Risk Definitions
+•	Invalid or incomplete user information may cause registration errors.
+•	Incorrect event or ticket information may lead to incorrect registrations.
+•	Duplicate or invalid QR tickets may cause check-in problems.
+•	Temporary service or database failures may affect ticketing and check-in.
+•	Unauthorized access may expose user or event information.
+Team note: Confirm with the whole team whether real payment integration, refunds, staff accounts, and other advanced features are inside the final scope before submitting the SRS.
+Member 1 — Responsibility
+•	Own Section 1 of the SRS.
+•	Help the team finalize the project purpose, scope, and user roles.
+•	Maintain consistency of terminology across the SRS.
+•	Main development area: user authentication and attendee-facing features
 
